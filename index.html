@@ -232,10 +232,12 @@
                 <div id="divForm">
                     <form action="#">
                         <h2>CONTACTEZ-NOUS</h2>
+                        
+                        <div id="deuxInputs">
+                            <input type="text" placeholder="Votre nom et prénom" required="required">
 
-                        <input type="text" placeholder="Votre nom et prénom" required="required">
-
-                        <input type="text" placeholder="Votre numéro de téléphone" required="required">
+                            <input type="text" placeholder="Votre numéro de téléphone" required="required">
+                        </div>
 
                         <input type="text" placeholder="Le nom de votre Entreprise" required="required">
 
@@ -254,8 +256,9 @@
                         <input type="checkbox" name="agreementCheckbox" id="agreementCheckbox" required="required" >
                         <label for="agreementCheckbox">En soumettant ce formulaire, j'accepte que les informations saisies soient transmises par mail à l'équipe de SkillFacile dans le but d'être recontacté concernant la demande effectuée. Je comprends que j'ai un droit de modification, d'accès et de suppression de mes informations personnelles.</label>
 
-                        <a href="#" class="btnCTA">Envoyer la demande</a>
-                            
+                        <DIV id="buttonDiv">
+                            <button type="submit" class="btnCTA">Envoyer la demande</a>
+                        </DIV>
                     </form>
                 </div>
             </section>
