@@ -612,11 +612,42 @@ padding-bottom: 200px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 0px;
-}
-
-    #section5 form{
-        width: 50%;
     }
+
+    #section5 {
+        margin: 100px 5px;
+    }
+
+    #section5 form {
+        padding: 20px;
+    }
+
+    #section5 input[type=text],
+    #section5 select,
+    #section5 textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #section5 form label {
+        display: block;
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    #section5 input[type="checkbox"] {
+        margin-bottom: 10px;
+    }
+
+    #section5 button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    #divForm h2{
+        font-size: 33px;
+    }
+
 }
 /* #endregion RESPONSIVE */
 
