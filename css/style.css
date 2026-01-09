@@ -622,9 +622,7 @@ padding-bottom: 200px;
         padding: 20px;
     }
 
-    #section5 input[type=text],
-    #section5 select,
-    #section5 textarea {
+    #section5 input[type=text],select,textarea{
         width: 100%;
         box-sizing: border-box;
     }
